@@ -1,0 +1,54 @@
+<button *ngIf="userId === '0'" routerLink="/partnership-applications" class="admin-button">
+  View Partnership Applications
+</button>
+
+<button *ngIf="userId && userId !== '0' && !isPartner" (click)="applyForPartnership()">Apply for Partnership</button>
+
+<!-- Box around the partner label -->
+<div *ngIf="userId && userId !== '0' && isPartner" class="partner-label-box">
+  <span class="partner-label">Official Partner</span>
+</div>
+
+<app-toy-search [userId]="userId"> </app-toy-search>
+
+<h2>Toys needed:</h2>
+<nav *ngIf="userId !=='0' ">
+    <a routerLink="/baskets/{{userId}}" routerLinkActive="active-link" class="basket-button">My Basket</a>
+</nav>
+
+<div class="toys-grid">
+  <div class="toy-card" *ngFor="let toy of currentToys">
+    <div class="toy-info">
+      <div class="toy-name">{{toy.name}}</div>
+      <div class="toy-price">${{toy.cost}}</div>
+    </div>
+    <a routerLink="/detail/{{toy.id}}/{{userId}}" class="buy-button">View</a>
+  </div>
+</div>
+
+<div class="page-container" *ngIf="totalPages > 1">
+  <button (click)="previousPage()" class="arrow-button" [disabled]="currentPage === 1">&laquo;</button>
+  <span>Page {{currentPage}} of {{totalPages}}</span>
+  <button (click)="nextPage()" class="arrow-button" [disabled]="currentPage === totalPages">&raquo;</button>
+</div>
+
+<div class="add-toy-container" *ngIf="userId === '0' || isPartner">
+  <label for="new-toy">Toy name: </label>
+  <input id="new-toy" #toyName required/>
+
+  <label for="new-cost">Cost: </label>
+  <input id="new-cost" type="number" #toyCost required/>
+  
+  <label for="new-quantity">Quantity: </label>
+  <input id="new-quantity" type="number" #toyQuantity required/>
+  
+  <label for="new-type">Type: </label>
+  <input id="new-type" #toyType required/>
+
+  <button type="button" class="add-button" (click)="addToy(toyName.value, toyCost.value, toyQuantity.value, toyType.value); 
+  toyName.value=''; toyCost.value=''; toyQuantity.value=''; toyType.value=''">
+    Add Toy
+  </button>
+
+  <span class="error-message" *ngIf="errorMessage">{{ errorMessage }}</span>
+</div>

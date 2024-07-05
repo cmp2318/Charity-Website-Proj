@@ -1,0 +1,702 @@
+[
+    {
+      "id": 1,
+      "name": "Teddy Bear",
+      "quantity": 10,
+      "cost": 15,
+      "type": "Plush"
+    },
+    {
+      "id": 2,
+      "name": "LEGO Set",
+      "quantity": 20,
+      "cost": 25,
+      "type": "Building Blocks"
+    },
+    {
+      "id": 3,
+      "name": "Barbie",
+      "quantity": 15,
+      "cost": 20,
+      "type": "Doll"
+    },
+    {
+      "id": 4,
+      "name": "Power Ranger",
+      "quantity": 8,
+      "cost": 30,
+      "type": "Action Figure"
+    },
+    {
+      "id": 5,
+      "name": "Monopoly",
+      "quantity": 12,
+      "cost": 20,
+      "type": "Game"
+    },
+    {
+        "id": 6,
+        "name": "Magic Kit with Tricks",
+        "quantity": 12,
+        "cost": 25,
+        "type": "Game"
+    },
+    {
+        "id": 7,
+        "name": "Dollhouse with Furniture",
+        "quantity": 8,
+        "cost": 55,
+        "type": "Doll"
+    },
+    {
+        "id": 8,
+        "name": "RC Racing Car",
+        "quantity": 22,
+        "cost": 40,
+        "type": "Vehicle"
+    },
+    {
+        "id": 9,
+        "name": "Board Game Collection",
+        "quantity": 30,
+        "cost": 60,
+        "type": "Game"
+    },
+    {
+        "id": 10,
+        "name": "Wooden Train Set",
+        "quantity": 14,
+        "cost": 20,
+        "type": "Building Blocks"
+    },
+    {
+        "id": 11,
+        "name": "Puzzle Adventure Set",
+        "quantity": 17,
+        "cost": 15,
+        "type": "Puzzle"
+    },
+    {
+        "id": 12,
+        "name": "Teddy Bear Plush Toy",
+        "quantity": 28,
+        "cost": 18,
+        "type": "Plush"
+    },
+    {
+        "id": 13,
+        "name": "Space Explorer Action Figure",
+        "quantity": 16,
+        "cost": 32,
+        "type": "Action Figure"
+    },
+    {
+        "id": 14,
+        "name": "Interactive Robot Companion",
+        "quantity": 9,
+        "cost": 70,
+        "type": "Gadget"
+    },
+    {
+        "id": 15,
+        "name": "Barbie Dreamhouse",
+        "quantity": 20,
+        "cost": 75,
+        "type": "Doll"
+    },
+    {
+        "id": 16,
+        "name": "DIY Jewelry Making Kit",
+        "quantity": 25,
+        "cost": 22,
+        "type": "Craft"
+    },
+    {
+        "id": 17,
+        "name": "Remote Control Helicopter",
+        "quantity": 10,
+        "cost": 48,
+        "type": "Gadget"
+    },
+    {
+        "id": 18,
+        "name": "Doctor Playset with Accessories",
+        "quantity": 15,
+        "cost": 27,
+        "type": "Doll"
+    },
+    {
+        "id": 19,
+        "name": "Construction Crane Building Set",
+        "quantity": 12,
+        "cost": 35,
+        "type": "Building Blocks"
+    },
+    {
+        "id": 20,
+        "name": "Kitchen Playset with Utensils",
+        "quantity": 18,
+        "cost": 42,
+        "type": "Doll"
+    },
+    {
+        "id": 21,
+        "name": "Race Track Playmat",
+        "quantity": 23,
+        "cost": 20,
+        "type": "Vehicle"
+    },
+    {
+        "id": 22,
+        "name": "Dinosaur Explorer Kit",
+        "quantity": 11,
+        "cost": 26,
+        "type": "Educational"
+    },
+    {
+        "id": 23,
+        "name": "Unicorn Plush Toy",
+        "quantity": 13,
+        "cost": 15,
+        "type": "Plush"
+    },
+    {
+        "id": 24,
+        "name": "Art Set with Paints and Brushes",
+        "quantity": 19,
+        "cost": 38,
+        "type": "Craft"
+    },
+    {
+        "id": 25,
+        "name": "Glow-in-the-Dark Stars Set",
+        "quantity": 21,
+        "cost": 10,
+        "type": "Decor"
+    },
+    {
+        "id": 26,
+        "name": "Remote Control Boat",
+        "quantity": 7,
+        "cost": 55,
+        "type": "Gadget"
+    },
+    {
+        "id": 27,
+        "name": "Stuffed Animal Zoo Set",
+        "quantity": 26,
+        "cost": 32,
+        "type": "Plush"
+    },
+    {
+        "id": 28,
+        "name": "Fairy Tale Storybook Collection",
+        "quantity": 16,
+        "cost": 24,
+        "type": "Book"
+    },
+    {
+        "id": 29,
+        "name": "Build Your Own Robot Kit",
+        "quantity": 10,
+        "cost": 28,
+        "type": "Educational"
+    },
+    {
+        "id": 30,
+        "name": "Fashion Doll Dress-Up Set",
+        "quantity": 14,
+        "cost": 16,
+        "type": "Doll"
+    },
+    {
+        "id": 31,
+        "name": "Wooden Block Tower Game",
+        "quantity": 24,
+        "cost": 14,
+        "type": "Game"
+    },
+    {
+        "id": 32,
+        "name": "Musical Instrument Set",
+        "quantity": 8,
+        "cost": 33,
+        "type": "Music"
+    },
+    {
+        "id": 33,
+        "name": "T-Rex Dinosaur Action Figure",
+        "quantity": 17,
+        "cost": 20,
+        "type": "Action Figure"
+    },
+    {
+        "id": 34,
+        "name": "Cooking Playset with Chef Hat",
+        "quantity": 22,
+        "cost": 36,
+        "type": "Doll"
+    },
+    {
+        "id": 35,
+        "name": "Building Blocks Deluxe Set",
+        "quantity": 9,
+        "cost": 65,
+        "type": "Building Blocks"
+    },
+    {
+        "id": 36,
+        "name": "Science Lab Experiment Kit",
+        "quantity": 11,
+        "cost": 26,
+        "type": "Educational"
+    },
+    {
+        "id": 37,
+        "name": "Play-Doh Creativity Set",
+        "quantity": 28,
+        "cost": 18,
+        "type": "Craft"
+    },
+    {
+        "id": 38,
+        "name": "Pirate Ship Playset",
+        "quantity": 20,
+        "cost": 40,
+        "type": "Toy"
+    },
+    {
+        "id": 39,
+        "name": "Jigsaw Puzzle Collection",
+        "quantity": 15,
+        "cost": 12,
+        "type": "Puzzle"
+    },
+    {
+        "id": 40,
+        "name": "Monster Truck Toy",
+        "quantity": 19,
+        "cost": 30,
+        "type": "Vehicle"
+    },
+    {
+        "id": 41,
+        "name": "Paint Your Own Ceramic Kit",
+        "quantity": 16,
+        "cost": 22,
+        "type": "Craft"
+    },
+    {
+        "id": 42,
+        "name": "Animal Figurine Set",
+        "quantity": 13,
+        "cost": 15,
+        "type": "Toy"
+    },
+    {
+        "id": 43,
+        "name": "Magnetic Building Tiles Set",
+        "quantity": 18,
+        "cost": 28,
+        "type": "Building Blocks"
+    },
+    {
+        "id": 44,
+        "name": "Tea Party Playset",
+        "quantity": 25,
+        "cost": 18,
+        "type": "Doll"
+    },
+    {
+        "id": 45,
+        "name": "Basketball Hoop Set",
+        "quantity": 14,
+        "cost": 32,
+        "type": "Sports"
+    },
+    {
+        "id": 46,
+        "name": "Farm Animal Figurines",
+        "quantity": 12,
+        "cost": 19,
+        "type": "Toy"
+    },
+    {
+        "id": 47,
+        "name": "Artificial Intelligence Robot",
+        "quantity": 11,
+        "cost": 80,
+        "type": "Gadget"
+    },
+    {
+        "id": 48,
+        "name": "Tent and Camping Set",
+        "quantity": 23,
+        "cost": 55,
+        "type": "Adventure"
+    },
+    {
+        "id": 49,
+        "name": "Doll Fashion Boutique",
+        "quantity": 17,
+        "cost": 40,
+        "type": "Doll"
+    },
+    {
+        "id": 50,
+        "name": "Magnetic Drawing Board",
+        "quantity": 20,
+        "cost": 15,
+        "type": "Educational"
+    },
+    {
+        "id": 51,
+        "name": "Remote Control Monster Car",
+        "quantity": 10,
+        "cost": 45,
+        "type": "Vehicle"
+    },
+    {
+        "id": 52,
+        "name": "Miniature Dollhouse Furniture Set",
+        "quantity": 28,
+        "cost": 20,
+        "type": "Doll"
+    },
+    {
+        "id": 53,
+        "name": "Outdoor Explorer Kit",
+        "quantity": 15,
+        "cost": 28,
+        "type": "Adventure"
+    },
+    {
+        "id": 54,
+        "name": "Magic Tricks Master Kit",
+        "quantity": 12,
+        "cost": 32,
+        "type": "Game"
+    },
+    {
+        "id": 55,
+        "name": "DIY Birdhouse Craft Kit",
+        "quantity": 19,
+        "cost": 18,
+        "type": "Craft"
+    },
+    {
+        "id": 56,
+        "name": "Water Balloon Launcher",
+        "quantity": 22,
+        "cost": 25,
+        "type": "Outdoor"
+    },
+    {
+        "id": 57,
+        "name": "Educational Flash Cards Set",
+        "quantity": 11,
+        "cost": 12,
+        "type": "Educational"
+    },
+    {
+        "id": 58,
+        "name": "Play Kitchen Set with Accessories",
+        "quantity": 16,
+        "cost": 40,
+        "type": "Doll"
+    },
+    {
+        "id": 59,
+        "name": "Model Rocket Launch Kit",
+        "quantity": 10,
+        "cost": 50,
+        "type": "Science"
+    },
+    {
+        "id": 60,
+        "name": "Wooden Puppet Theater",
+        "quantity": 18,
+        "cost": 35,
+        "type": "Doll"
+    },
+    {
+        "id": 61,
+        "name": "Build Your Own Airplane Kit",
+        "quantity": 13,
+        "cost": 28,
+        "type": "Craft"
+    },
+    {
+        "id": 62,
+        "name": "Play Tent with Tunnel",
+        "quantity": 24,
+        "cost": 30,
+        "type": "Adventure"
+    },
+    {
+        "id": 63,
+        "name": "Rock Painting Art Kit",
+        "quantity": 14,
+        "cost": 20,
+        "type": "Craft"
+    },
+    {
+        "id": 64,
+        "name": "Solar System Model Kit",
+        "quantity": 9,
+        "cost": 40,
+        "type": "Science"
+    },
+    {
+        "id": 65,
+        "name": "Jungle Animal Figurines Set",
+        "quantity": 20,
+        "cost": 15,
+        "type": "Toy"
+    },
+    {
+        "id": 66,
+        "name": "Remote Control Airplane",
+        "quantity": 16,
+        "cost": 55,
+        "type": "Vehicle"
+    },
+    {
+        "id": 67,
+        "name": "Princess Dress-Up Costume Set",
+        "quantity": 19,
+        "cost": 28,
+        "type": "Doll"
+    },
+    {
+        "id": 68,
+        "name": "Gardening Tool Set for Kids",
+        "quantity": 22,
+        "cost": 18,
+        "type": "Outdoor"
+    },
+    {
+        "id": 69,
+        "name": "Magnetic Fishing Game",
+        "quantity": 15,
+        "cost": 12,
+        "type": "Educational"
+    },
+    {
+        "id": 70,
+        "name": "Wooden Marble Run Set",
+        "quantity": 11,
+        "cost": 30,
+        "type": "Building Blocks"
+    },
+    {
+        "id": 71,
+        "name": "Pirate Treasure Chest Toy",
+        "quantity": 28,
+        "cost": 25,
+        "type": "Adventure"
+    },
+    {
+        "id": 72,
+        "name": "Basketball Set for Kids",
+        "quantity": 10,
+        "cost": 35,
+        "type": "Sports"
+    },
+    {
+        "id": 73,
+        "name": "Ice Cream Parlor Playset",
+        "quantity": 26,
+        "cost": 18,
+        "type": "Doll"
+    },
+    {
+        "id": 74,
+        "name": "Musical Keyboard for Kids",
+        "quantity": 17,
+        "cost": 40,
+        "type": "Music"
+    },
+    {
+        "id": 75,
+        "name": "Robot Building Kit with Sensors",
+        "quantity": 12,
+        "cost": 60,
+        "type": "Educational"
+    },
+    {
+        "id": 76,
+        "name": "DIY Wind Chime Craft Kit",
+        "quantity": 23,
+        "cost": 15,
+        "type": "Craft"
+    },
+    {
+        "id": 77,
+        "name": "Doctor Role Play Kit",
+        "quantity": 14,
+        "cost": 22,
+        "type": "Doll"
+    },
+    {
+        "id": 78,
+        "name": "Soccer Goal Set",
+        "quantity": 18,
+        "cost": 30,
+        "type": "Sports"
+    },
+    {
+        "id": 79,
+        "name": "Telescope for Kids",
+        "quantity": 9,
+        "cost": 35,
+        "type": "Science"
+    },
+    {
+        "id": 80,
+        "name": "Fashion Designer Sketchbook",
+        "quantity": 24,
+        "cost": 18,
+        "type": "Craft"
+    },
+    {
+        "id": 81,
+        "name": "Toy Fire Truck",
+        "quantity": 20,
+        "cost": 28,
+        "type": "Vehicle"
+    },
+    {
+        "id": 82,
+        "name": "Construction Worker Dress-Up Costume",
+        "quantity": 15,
+        "cost": 20,
+        "type": "Doll"
+    },
+    {
+        "id": 83,
+        "name": "Butterfly Habitat Kit",
+        "quantity": 28,
+        "cost": 25,
+        "type": "Science"
+    },
+    {
+        "id": 84,
+        "name": "Mini Basketball Set",
+        "quantity": 16,
+        "cost": 12,
+        "type": "Sports"
+    },
+    {
+        "id": 85,
+        "name": "Remote Control Construction Truck",
+        "quantity": 13,
+        "cost": 45,
+        "type": "Vehicle"
+    },
+    {
+        "id": 86,
+        "name": "Crayon Art Set",
+        "quantity": 22,
+        "cost": 18,
+        "type": "Craft"
+    },
+    {
+        "id": 87,
+        "name": "Gardening Playset with Tools",
+        "quantity": 11,
+        "cost": 30,
+        "type": "Outdoor"
+    },
+    {
+        "id": 88,
+        "name": "Science Experiment Lab Kit",
+        "quantity": 24,
+        "cost": 35,
+        "type": "Science"
+    },
+    {
+        "id": 89,
+        "name": "Play Dough Set",
+        "quantity": 10,
+        "cost": 15,
+        "type": "Craft"
+    },
+    {
+        "id": 90,
+        "name": "Toy Dump Truck",
+        "quantity": 15,
+        "cost": 28,
+        "type": "Vehicle"
+    },
+    {
+        "id": 91,
+        "name": "Pretend Play Tool Set",
+        "quantity": 20,
+        "cost": 20,
+        "type": "Doll"
+    },
+    {
+        "id": 92,
+        "name": "Magnetic Poetry Kit",
+        "quantity": 16,
+        "cost": 18,
+        "type": "Educational"
+    },
+    {
+        "id": 93,
+        "name": "Plush Unicorn Pillow",
+        "quantity": 14,
+        "cost": 22,
+        "type": "Plush"
+    },
+    {
+        "id": 94,
+        "name": "Musical Tambourine",
+        "quantity": 18,
+        "cost": 12,
+        "type": "Music"
+    },
+    {
+        "id": 95,
+        "name": "Building Block Baseplate Set",
+        "quantity": 21,
+        "cost": 28,
+        "type": "Building Blocks"
+    },
+    {
+        "id": 96,
+        "name": "Kids' Chef Apron and Hat Set",
+        "quantity": 23,
+        "cost": 15,
+        "type": "Doll"
+    },
+    {
+        "id": 97,
+        "name": "Magnetic Drawing Board",
+        "quantity": 17,
+        "cost": 20,
+        "type": "Educational"
+    },
+    {
+        "id": 98,
+        "name": "Wooden Block Puzzle",
+        "quantity": 19,
+        "cost": 12,
+        "type": "Puzzle"
+    },
+    {
+        "id": 99,
+        "name": "RC Stunt Car",
+        "quantity": 22,
+        "cost": 45,
+        "type": "Vehicle"
+    },
+    {
+        "id": 100,
+        "name": "Glow in the Dark Stars Set",
+        "quantity": 25,
+        "cost": 18,
+        "type": "Decor"
+    }
+  ]

@@ -1,0 +1,46 @@
+/* Style for the partnership container */
+.partnership-container {
+        max-width: 600px; 
+        margin: auto;
+        padding: 20px;
+        background-color: #f9f9f9; 
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+  }
+  
+  /* Style for the list of applications */
+  .applications-list {
+        list-style-type: none; 
+        padding: 0;
+  }
+  
+  /* Style for each list item */
+  .applications-list li {
+        padding: 10px;
+        margin-bottom: 15px; 
+        border: 1px solid #ddd; 
+        border-radius: 4px; 
+  }
+  
+  /* Styling for individual details (ID and Name) */
+  .applications-list li div {
+        margin-bottom: 5px; 
+        color: #333;
+  }
+  
+  /* Style for the accept button */
+  .accept-btn {
+        background-color: #4CAF50; 
+        color: white;
+        border: none;
+        padding: 8px 16px;
+        border-radius: 4px; 
+        cursor: pointer;
+        font-size: 14px;
+  }
+  
+  /* Hover effect for the accept button */
+  .accept-btn:hover {
+        background-color: #45a049; 
+  }
+  

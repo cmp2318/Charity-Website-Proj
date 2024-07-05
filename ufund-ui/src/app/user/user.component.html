@@ -1,0 +1,13 @@
+<div *ngIf="basket">
+  <h2>User Basket</h2>
+  <p>User ID: {{ basket.id }}</p>
+  <ul>
+    <li *ngFor="let toy of basket.basket">
+      <p>Toy ID: {{ toy.id }}</p>
+      <p>Name: {{ toy.name }}</p>
+      <p>Quantity: {{ toy.quantity }}</p>
+      <p>Cost: {{ toy.cost }}</p>
+      <p>Type: {{ toy.type }}</p>
+    </li>
+  </ul>
+</div>

@@ -1,0 +1,7 @@
+<h1>{{ title }}</h1>
+<nav>
+    <a *ngIf="!isLoginPage()" routerLink="/login" class="logout-button">Logout</a>
+</nav>
+<router-outlet></router-outlet>
+
+

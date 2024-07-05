@@ -1,0 +1,13 @@
+<div class="partnership-container">
+    <h2>List of Partnership Applications:</h2>
+    <ul class="applications-list">
+        <!-- Iterating over each applicant object -->
+        <li *ngFor="let applicant of applications">
+            <!-- Displaying ID and Name on separate lines -->
+            <div>User ID: {{applicant.id}}</div>
+            <div>Name: "{{applicant.name}}"</div>
+            <button class="accept-btn" (click)="acceptApplication(applicant.id)">Accept as Partner</button>
+        </li>
+    </ul>
+</div>
+<button type="button" (click)="goBack()">Go Back</button>

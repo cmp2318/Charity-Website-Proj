@@ -1,0 +1,17 @@
+<div class="quantity-container">
+  <select class="quantity-select" [(ngModel)]="selectedQuantity" (change)="onSelectQuantity($event)">
+    <option value="" disabled selected>Select Quantity</option>
+    <option *ngFor="let option of dropdownOptions" [value]="option">{{ option }}</option>
+  </select>
+  <button class="add-to-basket-button" [disabled]="selectedQuantity===undefined" (click)="addToBasket()">Add to Basket</button>
+</div>
+
+<div *ngIf="selectedQuantity === undefined" class="error-message">Please select a quantity</div>
+
+
+
+
+
+  
+  
+  

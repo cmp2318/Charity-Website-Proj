@@ -1,0 +1,38 @@
+<div class="basket-container" *ngIf="fundBasket">
+  <h2 class="basket-header">My Basket</h2>
+  <div class="basket-container" *ngIf="fundBasket.basket.length > 0">
+    <ul class="toy-list">
+      <li class="toy-item" *ngFor="let toy of fundBasket.basket">
+        <div class="toy-info">
+          <p class="toy-name">{{ toy.name }}</p>
+          <p class="toy-cost">${{ toy.cost }}</p>
+          <!-- Add quantity display if available -->
+          <p class="toy-quantity">Quantity: {{ toy.quantity }}</p>
+        </div>
+        <button class="remove-button" (click)="removeToy(fundBasket.id, toy.id)">Remove</button>
+      </li>
+    </ul>
+  </div>
+  <div *ngIf="fundBasket.basket.length === 0">
+    <p>No items in the basket</p>
+  </div>
+
+  <hr>
+
+  <div class="email-input-container" *ngIf="fundBasket.basket.length > 0">
+    <label for="userEmail" class="email-label">Enter email for receipt:</label>
+    <input type="email" id="userEmail" name="userEmail" [(ngModel)]="userEmail" class="email-input">
+  </div>
+  <!-- Total cost and checkout button -->
+  <div class="total-cost-container">
+    <p class="total-cost">Total Cost: ${{ this.totalAmount }}</p>
+    <button *ngIf="fundBasket.basket.length > 0" class="checkout-button" (click)="checkout(fundBasket)">Checkout</button>
+  </div>
+
+  <button type="button" (click)="goBack()">Go Back</button>
+</div>
+
+
+
+
+  

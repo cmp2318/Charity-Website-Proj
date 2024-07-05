@@ -1,0 +1,56 @@
+/* search-component.css */
+
+/* Style for the search box container */
+#search-component {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  margin: 20px 0;
+}
+
+/* Style for the search input box */
+#search-box {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* Style for the search result list */
+.search-result {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Style for each search result item */
+.search-result li {
+  padding: 10px;
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Style for the search result link */
+.search-result li a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+}
+
+/* Hover effect for each search result item */
+.search-result li:hover {
+  background-color: #e9e9e9;
+}
+
+/* Style adjustments for the search label */
+label[for="search-box"] {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}

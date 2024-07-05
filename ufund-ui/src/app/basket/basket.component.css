@@ -1,0 +1,121 @@
+/* basket.component.css */
+
+/* Style for each toy item */
+.toy-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+  }
+  
+  /* Style for toy info container */
+  .toy-info {
+    flex: 1;
+  }
+  
+  /* Style for the remove button */
+  .remove-button {
+    background-color: #f20000;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  /* Hover effect for the remove button */
+  .remove-button:hover {
+    background-color: #d02d00;
+  }
+  
+  /* Style for the toy name */
+  .toy-name {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  /* Style for the toy cost */
+  .toy-cost {
+    font-size: 18px;
+    color: #008507;
+  }
+  
+  /* Style for the toy quantity */
+  .toy-quantity {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  /* CSS for the line separator */
+.basket-container hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+/* CSS for the total cost and checkout button */
+.total-cost-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.total-cost {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.checkout-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.checkout-button:hover {
+  background-color: #0056b3;
+}
+
+/* Style for the email input container */
+.email-input-container {
+  margin-top: 20px;
+}
+
+/* Style for the label */
+.email-label {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+/* Style for the email input field */
+.email-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style for the email input field on focus */
+.email-input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Style for the placeholder text */
+.email-input::placeholder {
+  color: #aaa;
+}
+
+  
+  
+  

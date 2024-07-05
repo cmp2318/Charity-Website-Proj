@@ -1,0 +1,35 @@
+/* Style for the container div */
+.quantity-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Style for the select dropdown */
+  .quantity-select {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  /* Style for the button */
+  .add-to-basket-button {
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Hover effect for the button */
+  .add-to-basket-button:hover {
+    background-color: #45a049;
+  }
+  
+  .error-message {
+    color: red;
+  }
+  

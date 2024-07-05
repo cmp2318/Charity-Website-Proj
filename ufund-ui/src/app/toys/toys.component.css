@@ -1,0 +1,215 @@
+/* Style for the list */
+ul.toys {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .toys {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Creates columns that are at least 250px wide */
+    gap: 10px; /* Space between grid items */
+  }
+
+  .toys li {
+    background-color: #f9f9f9; /* Example background color */
+    border: 1px solid #e1e1e1; /* Example border */
+    padding: 10px; /* Inner spacing */
+    list-style-type: none; /* Removes default list styling */
+  }
+
+
+  .partner-label-box {
+    border: 2px solid #4CAF50; /* Green border */
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: #f0f0f0; /* Light grey background */
+    display: inline-block; /* Or 'block' depending on layout */
+  }
+  
+  .partner-label {
+    color: #4CAF50; /* Green text */
+    font-weight: bold;
+  }
+  
+  /* Style for each toy item */
+  ul.toys li {
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  /* Style for the toy link */
+  ul.toys li a {
+    display: block;
+    text-decoration: none;
+    color: #007bff; /* Change color as needed */
+  }
+  
+  /* Style for the toy badge */
+  ul.toys li a .badge {
+    background-color: #007bff; /* Change color as needed */
+    color: #fff;
+    border-radius: 5px;
+    padding: 6px 10px;
+    margin-right: 10px;
+    font-size: 16px;
+  }
+  
+  
+  .basket-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  .basket-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Positioning */
+  nav {
+    position: relative;
+  }
+  
+  .basket-button {
+    position: absolute;
+    top: -50px; /* Adjust this value to position the button vertically */
+    right: 10px; /* Adjust this value to position the button horizontally */
+  }
+
+  /* Does not display active basket*/
+.active-link {
+    display: none;
+  }
+
+  .add-toy-container {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #dce8f3;
+  }
+  
+  .add-toy-container label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .add-toy-container input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .add-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .add-button:hover {
+    background-color: #0056b3;
+  }
+
+  .error-message {
+    color:red;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-top: 5px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+  }
+
+  .toys-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .toy-card {
+    background-color: #f9f9f9;
+    border: 1px solid #e1e1e1;
+    border-radius: 8px; /* Rounded corners */
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+    transition: transform 0.2s; /* Smooth transition for hover effect */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .toy-card:hover {
+    transform: translateY(-5px); /* Slight lift effect on hover */
+  }
+  
+  .toy-info {
+    padding: 15px;
+    text-align: center; /* Centering the text */
+    flex: 1;
+  }
+  
+  .toy-name {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .toy-price {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .buy-button {
+    display: block;
+    background-color: #007bff; /* Example button color */
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .buy-button:hover {
+    background-color: #0056b3; 
+  }
+
+  .page-container {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .arrow-button {
+    background-color: #f9f9f9;
+    border: 1px solid #e1e1e1;
+    padding: 5px 10px;
+    margin: 0 5px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .arrow-button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  .arrow-button:not(:disabled):hover {
+    background-color: #e1e1e1;
+  }

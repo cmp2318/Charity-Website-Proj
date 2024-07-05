@@ -1,0 +1,52 @@
+[
+    {
+      "id": 1,
+      "basket": [
+        {
+          "id": 1,
+          "name": "Teddy Bear",
+          "quantity": 1,
+          "cost": 15,
+          "type": "Plush"
+        },
+        {
+          "id": 2,
+          "name": "LEGO Set",
+          "quantity": 2,
+          "cost": 25,
+          "type": "Building Blocks"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "basket": [
+        {
+          "id": 3,
+          "name": "Barbie",
+          "quantity": 1,
+          "cost": 20,
+          "type": "Doll"
+        },
+        {
+          "id": 4,
+          "name": "Power Ranger",
+          "quantity": 1,
+          "cost": 30,
+          "type": "Action Figure"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "basket": [
+        {
+          "id": 5,
+          "name": "Monopoly",
+          "quantity": 1,
+          "cost": 20,
+          "type": "Game"
+        }
+      ]
+    }
+  ]
